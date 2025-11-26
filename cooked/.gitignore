@@ -1,1 +1,13 @@
-Lib
+# Ignore the virtual environment (where the libraries live)
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+venv/
+
+# Ignore secrets
+.streamlit/secrets.toml
+
+# Ignore messy python cache files
+__pycache__/
+*.pyc
