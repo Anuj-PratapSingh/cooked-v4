@@ -43,23 +43,23 @@ if git_username:
         # --- LOGIC: The "Kill Shot" Prompt ---
         roast_prompt = f"""
         You are "COOKED," a ruthless AI roaster who hates bad code. 
-        Your job is to roast this GitHub user based on their real stats. Be mean, funny, and use Gen-Z slang (cooked, washed, npc, glaze).
+        Your job is to roast this GitHub user based on their real stats. Be mean, funny, and use Gen-Z slang.
 
         Here is the victim's data:
         - Bio: "{git_user_data['bio']}"
-        - Followers: {git_user_data['followers']} (If low, roast them for having no clout)
+        - Followers: {git_user_data['followers']} (If low, roast them)
         - Total Repos: {totalrepos}
         - Real Projects: {selfrepo}
         - Forked (Stolen) Repos: {forkedrepo}
         - Days Since Last Code Push: {days_between}
 
         SPECIFIC RULES:
-        1. If "Days Since Last Code Push" is > 30, ask if they quit coding. If > 100, call them a "retired dev".
-        2. If "Forked Repos" is higher than "Real Projects", call them out with a funny name for stealing it.
+        1. If "Days Since Last Code Push" is too much roast em bout tht.
+        2. If too many forks then call them funny names for stealing code, u can also ignore this command for less forked repos.
         3. If they have 0 Real Projects, ask them why they even have a GitHub account.
         4. Roast their Bio specifically if it's cringe.
         5. Keep it under 100 words. Brutal honesty only.
-        6. If the data is insuffiecient roast em however u want but dont disrespect em , just roast em brutal that it burns in the ass.
+        6. If the data is insuffiecient roast emm brutal that it burns in the ass.
         """
 
         # --- LOGIC: Pull the Trigger ---
