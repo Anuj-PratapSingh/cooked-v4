@@ -1,0 +1,14 @@
+# --- Virtual Environment (The Libraries & Tools) ---
+**/Lib/
+**/Scripts/
+**/Include/
+**/pyvenv.cfg
+**/etc/
+**/share/
+
+# --- Secrets (CRITICAL: Do not upload keys) ---
+**/.streamlit/secrets.toml
+
+# --- Python Junk (Cache files) ---
+**/__pycache__/
+**/*.pyc
