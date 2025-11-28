@@ -11,3 +11,4 @@ venv/
 # Ignore messy python cache files
 __pycache__/
 *.pyc
+**/secrets.toml
